@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glitch AI Dashboard</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #00BFFF;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            text-align: center;
+            margin: 20px;
+        }
+        .chat-interface {
+            border: 1px solid #00BFFF;
+            padding: 20px;
+            margin: 20px;
+            background-color: #1A1A1A;
+        }
+        .controls {
+            margin: 10px;
+        }
+        button {
+            background-color: #00BFFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #007BBF;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Glitch AI Dashboard</h1>
+    </div>
+    <div class="chat-interface">
+        <h2>Chat Interface</h2>
+        <div>
+            <input type="text" placeholder="Type a message..." />
+            <button>Send</button>
+        </div>
+    </div>
+    <div class="controls">
+        <h2>Personality Controls</h2>
+        <button>Adjust Personality</button>
+        <button>Set Guardrails</button>
+    </div>
+    <div class="version-control">
+        <h2>Version Control</h2>
+        <button>View Versions</button>
+        <button>Rollback</button>
+    </div>
+    <div class="training-panels">
+        <h2>Training Panels</h2>
+        <button>Start Training</button>
+        <button>Stop Training</button>
+    </div>
+</body>
+</html>
